@@ -1,6 +1,8 @@
 {
   "name": "coderiver-test-task-react",
+  "homepage": "https://garryrocksman.github.io/coderiver-test-task-react/",
   "version": "0.1.0",
+  "main": "src/index.ts",
   "private": true,
   "dependencies": {
     "@mate-academy/eslint-config-react-typescript": "^1.0.11",

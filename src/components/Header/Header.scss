@@ -1,0 +1,43 @@
+.header {
+  position: relative;
+  
+  max-width: 1168px;
+  margin: 0 auto;
+
+
+  &__container {
+    padding: 80px 0;
+
+    height: 100px; 
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 1100px) {
+      padding: 80px 20px 80px;
+    }
+  }
+
+  &__logo {
+    margin-right: 250px;
+    padding-top: 10px;
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    font-family: 'Jomhuria',  Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 0.9;
+
+    color: #2E3341;
+
+    @media screen and (max-width: 768px) {
+      margin-right: 100px;
+    }
+  }
+}

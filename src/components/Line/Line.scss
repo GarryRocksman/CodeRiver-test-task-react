@@ -1,0 +1,35 @@
+.line {
+  position: absolute;
+  top: -100px;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 0;
+
+  &__path {
+    transform-origin: center;
+    animation-name: wave;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(4deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
